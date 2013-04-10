@@ -70,6 +70,6 @@ function vimeoFeedHeader(){
     <!-- End - Vimeo Fancybox Video Gallery -->
 <?php
 }
+
 add_action('wp_head','vimeoFeedHeader');
-add_shortcode("vimeo","getVimeo");
-?>
+add_shortcode("vimeo-vfvg","getVimeo");
